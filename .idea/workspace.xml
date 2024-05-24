@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b0beeaa-633d-48d1-b53e-eaf3c0eb6197" name="Changes" comment="Gradio interface" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/Pytorch-Correlation-extension" source="main/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/Pytorch-Correlation-extension" value="segment" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN",
+      "author": "Ar4il"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN",
+    "author": "Ar4il"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="efac2f1a-7564-470f-9a65-e5b538ce3cc4" />
+        <option name="url" value="https://github.com/HopeEradicated/HSEVKR.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ccWfYeNvSd9r6ngmftQ2f7bwE4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/123/PycharmProjects/VideoSegmentation",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\123\PycharmProjects\VideoSegmentation" />
+      <recent name="C:\Users\123\PycharmProjects\VideoSegmentation\ckpt" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VideoSegmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\123\PycharmProjects\VideoSegmentation\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (VideoSegmentation)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VideoSegmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\123\PycharmProjects\VideoSegmentation\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (venv)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VideoSegmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="download_ckpt.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/script/download_ckpt.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="install.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/script/install.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Shell Script.download_ckpt.sh" />
+      <item itemvalue="Shell Script.install.sh" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Shell Script.download_ckpt.sh" />
+        <item itemvalue="Shell Script.install.sh" />
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b0beeaa-633d-48d1-b53e-eaf3c0eb6197" name="Changes" comment="" />
+      <created>1708411450231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708411450231</updated>
+      <workItem from="1708414051922" duration="715000" />
+      <workItem from="1708414784988" duration="4968000" />
+      <workItem from="1708419822360" duration="1197000" />
+      <workItem from="1708421056849" duration="10000" />
+      <workItem from="1708421076647" duration="6540000" />
+      <workItem from="1708428907521" duration="9826000" />
+      <workItem from="1708450567436" duration="2099000" />
+      <workItem from="1708499252250" duration="1574000" />
+      <workItem from="1708505371440" duration="4097000" />
+      <workItem from="1708541134241" duration="1423000" />
+      <workItem from="1710342709652" duration="40000" />
+      <workItem from="1710743644930" duration="2501000" />
+      <workItem from="1710750006517" duration="215000" />
+      <workItem from="1710920162471" duration="62000" />
+      <workItem from="1710920231593" duration="8467000" />
+      <workItem from="1711651537121" duration="846000" />
+      <workItem from="1711967103951" duration="2095000" />
+      <workItem from="1712140860374" duration="11217000" />
+      <workItem from="1712735515644" duration="7551000" />
+      <workItem from="1712830555978" duration="2335000" />
+      <workItem from="1712839443903" duration="1973000" />
+      <workItem from="1712944411557" duration="1719000" />
+      <workItem from="1712946148055" duration="2149000" />
+      <workItem from="1712949737142" duration="442000" />
+      <workItem from="1712950337792" duration="195000" />
+      <workItem from="1712950539192" duration="844000" />
+      <workItem from="1712992347934" duration="11906000" />
+      <workItem from="1713093328677" duration="8252000" />
+      <workItem from="1713168305481" duration="2529000" />
+      <workItem from="1713178614907" duration="207000" />
+      <workItem from="1713178828821" duration="1590000" />
+      <workItem from="1713180427212" duration="4023000" />
+      <workItem from="1713210424224" duration="1419000" />
+      <workItem from="1713216684807" duration="1480000" />
+      <workItem from="1713218739489" duration="2829000" />
+      <workItem from="1713253228295" duration="9029000" />
+      <workItem from="1713266914671" duration="1406000" />
+      <workItem from="1713609103389" duration="7000" />
+      <workItem from="1713712682779" duration="6000" />
+      <workItem from="1713793369502" duration="6755000" />
+      <workItem from="1713811604232" duration="6616000" />
+      <workItem from="1713822919842" duration="738000" />
+      <workItem from="1713853321272" duration="3762000" />
+      <workItem from="1715167955954" duration="600000" />
+      <workItem from="1715330747078" duration="599000" />
+      <workItem from="1715686257980" duration="603000" />
+      <workItem from="1715858034501" duration="8000" />
+      <workItem from="1715948770162" duration="3295000" />
+      <workItem from="1716313566834" duration="4036000" />
+      <workItem from="1716366373735" duration="840000" />
+      <workItem from="1716371551489" duration="3358000" />
+      <workItem from="1716375580892" duration="1525000" />
+      <workItem from="1716484345836" duration="310000" />
+      <workItem from="1716542939137" duration="106000" />
+      <workItem from="1716543051774" duration="54000" />
+      <workItem from="1716543111774" duration="77000" />
+      <workItem from="1716543195671" duration="1643000" />
+      <workItem from="1716545547003" duration="475000" />
+      <workItem from="1716546031184" duration="847000" />
+    </task>
+    <task id="LOCAL-00001" summary="Gradio interface">
+      <option name="closed" value="true" />
+      <created>1716545256390</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716545256390</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Gradio interface">
+      <option name="closed" value="true" />
+      <created>1716545781674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716545781674</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Gradio interface">
+      <option name="closed" value="true" />
+      <created>1716546444998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716546444998</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/src/Pytorch-Correlation-extension" />
+      <path value="$PROJECT_DIR$/src/groundingdino" />
+    </ignored-roots>
+    <MESSAGE value="Gradio interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gradio interface" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/VideoSegmentation$test.coverage" NAME="test Coverage Results" MODIFIED="1713822960486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Segment_and_Track_Anything_1_5$app.coverage" NAME="app Coverage Results" MODIFIED="1708541135353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VideoSegmentation$app.coverage" NAME="app Coverage Results" MODIFIED="1716373989541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Segment_and_Track_Anything_1_5$detector.coverage" NAME="detector Coverage Results" MODIFIED="1708421420596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+  </component>
+</project>
