@@ -167,11 +167,12 @@ def do_video_impating(video, mask, mask_dilation=10):
 
     frames, fps, size, video_name = read_frame_from_videos(video)
     video_name = video_name.rsplit('_', 1)[0]
+    out_size = size
     if not resize_ratio == 1.0:
         size = (int(resize_ratio * size[0]), int(resize_ratio * size[1]))
 
-    frames, size, out_size = resize_frames(frames, size)
-
+    #frames, size, out_size = resize_frames(frames, size)
+    frames, size, out = resize_frames(frames, size)
     fps = save_fps if fps is None else fps
     save_root = os.path.join(output, video_name)
     if not os.path.exists(save_root):
