@@ -79,8 +79,7 @@ def tracking_objects_in_video(segmentation, input_video, mask_dilation):
     io_args = {
         'tracking_result_dir': tracking_result_dir,
         'output_mask_dir': f'{tracking_result_dir}/{video_name}_masks',
-        'output_frame_dir': f'{tracking_result_dir}/{video_name}_frames',
-        'output_video': f'{tracking_result_dir}/{video_name}_seg.mp4'
+        'output_frame_dir': f'{tracking_result_dir}/{video_name}_frames'
     }
 
     if input_video is not None:
@@ -110,15 +109,6 @@ def video_type_input_tracking(segmentation, input_video, io_args, mask_dilation)
                 pred_mask = segmentation.first_frame_mask
             else:
                 pred_mask = segmentation.track(frame, update_memory=True)
-            '''
-            elif (frame_idx % 3) == 0:
-                seg_mask = segmentation.seg(frame)
-
-                track_mask = segmentation.track(frame)
-                new_obj_mask = segmentation.find_new_objs(track_mask, seg_mask)
-                pred_mask = track_mask + new_obj_mask
-                segmentation.add_reference(frame, pred_mask)
-                '''
             torch.cuda.empty_cache()
             gc.collect()
 
@@ -144,6 +134,5 @@ def video_type_input_tracking(segmentation, input_video, io_args, mask_dilation)
 
     cap.release()
 
-    src = do_video_impating(io_args['output_frame_dir'], io_args['output_mask_dir'], mask_dilation)
-
+    src = do_video_impating(io_args['output_frame_dir'], io_args['output_mask_dir'], mask_dilation, fps)
     return src

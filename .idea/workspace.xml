@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b0beeaa-633d-48d1-b53e-eaf3c0eb6197" name="Changes" comment="Gradio app file upload">
+    <list default="true" id="1b0beeaa-633d-48d1-b53e-eaf3c0eb6197" name="Changes" comment="Minor changes and model args">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aot_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/aot_tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seg_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/seg_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seg_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/seg_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video_impating_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/video_impating_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +92,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -282,7 +287,22 @@
       <workItem from="1716581753952" duration="724000" />
       <workItem from="1716627414664" duration="2986000" />
       <workItem from="1716631478054" duration="7000" />
-      <workItem from="1716645463106" duration="900000" />
+      <workItem from="1716645463106" duration="912000" />
+      <workItem from="1716647396863" duration="56000" />
+      <workItem from="1716648330500" duration="8095000" />
+      <workItem from="1716738251575" duration="97000" />
+      <workItem from="1716882760972" duration="1334000" />
+      <workItem from="1717504432432" duration="3921000" />
+      <workItem from="1717611729643" duration="2911000" />
+      <workItem from="1717617817622" duration="972000" />
+      <workItem from="1717664715007" duration="464000" />
+      <workItem from="1717667248146" duration="999000" />
+      <workItem from="1717670444727" duration="614000" />
+      <workItem from="1717677649895" duration="535000" />
+      <workItem from="1717680406573" duration="451000" />
+      <workItem from="1717685263415" duration="44000" />
+      <workItem from="1717734784050" duration="6235000" />
+      <workItem from="1718125576999" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="Gradio interface">
       <option name="closed" value="true" />
@@ -340,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716645711774</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Minor changes and model args">
+      <option name="closed" value="true" />
+      <created>1716647382213</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716647382213</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,12 +409,13 @@
     <MESSAGE value="Gradio interface" />
     <MESSAGE value="Video segmentation and inpainting model app" />
     <MESSAGE value="Gradio app file upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gradio app file upload" />
+    <MESSAGE value="Minor changes and model args" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes and model args" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/VideoSegmentation$test.coverage" NAME="test Coverage Results" MODIFIED="1713822960486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Segment_and_Track_Anything_1_5$app.coverage" NAME="app Coverage Results" MODIFIED="1708541135353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/VideoSegmentation$app.coverage" NAME="app Coverage Results" MODIFIED="1716629769633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VideoSegmentation$app.coverage" NAME="app Coverage Results" MODIFIED="1717735188334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Segment_and_Track_Anything_1_5$detector.coverage" NAME="detector Coverage Results" MODIFIED="1708421420596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
   </component>
 </project>

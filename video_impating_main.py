@@ -18,11 +18,13 @@ from model.recurrent_flow_completion import RecurrentFlowCompleteNet
 
 warnings.filterwarnings("ignore")
 
+
 def imwrite(img, file_path, params=None, auto_mkdir=True):
     if auto_mkdir:
         dir_name = os.path.abspath(os.path.dirname(file_path))
         os.makedirs(dir_name, exist_ok=True)
     return cv2.imwrite(file_path, img, params)
+
 
 def resize_frames(frames, size=None):
     if size is not None:
@@ -36,6 +38,7 @@ def resize_frames(frames, size=None):
             frames = [f.resize(process_size) for f in frames]
 
     return frames, process_size, out_size
+
 
 def read_frame_from_videos(frame_root):
     if frame_root.endswith(('mp4', 'mov', 'avi', 'MP4', 'MOV', 'AVI')):  # input video path
@@ -57,10 +60,12 @@ def read_frame_from_videos(frame_root):
 
     return frames, fps, size, video_name
 
+
 def binary_mask(mask, th=0.1):
     mask[mask > th] = 1
     mask[mask <= th] = 0
     return mask
+
 
 def read_mask(mpath, length, size, flow_mask_dilates=8, mask_dilates=5):
     masks_img = []
@@ -98,6 +103,7 @@ def read_mask(mpath, length, size, flow_mask_dilates=8, mask_dilates=5):
         masks_dilated = masks_dilated * length
 
     return flow_masks, masks_dilated
+
 
 def extrapolation(video_ori, scale):
     nFrame = len(video_ori)
@@ -138,6 +144,7 @@ def extrapolation(video_ori, scale):
 
     return frames, flow_masks, masks_dilated, (imgW_extr, imgH_extr)
 
+
 def get_ref_index(mid_neighbor_id, neighbor_ids, length, ref_stride=10, ref_num=-1):
     ref_index = []
     if ref_num == -1:
@@ -154,7 +161,8 @@ def get_ref_index(mid_neighbor_id, neighbor_ids, length, ref_stride=10, ref_num=
                 ref_index.append(i)
     return ref_index
 
-def do_video_impating(video, mask, mask_dilation=10):
+
+def do_video_impating(video, mask, mask_dilation=10, video_fps=30):
     device = get_device()
 
     output = "results/Finall"
@@ -163,17 +171,15 @@ def do_video_impating(video, mask, mask_dilation=10):
     neighbor_length = 10
     subvideo_length = 80
     raft_iter = 20
-    save_fps = 30
 
     frames, fps, size, video_name = read_frame_from_videos(video)
     video_name = video_name.rsplit('_', 1)[0]
-    out_size = size
+    in_size = size
     if not resize_ratio == 1.0:
         size = (int(resize_ratio * size[0]), int(resize_ratio * size[1]))
 
-    #frames, size, out_size = resize_frames(frames, size)
     frames, size, out = resize_frames(frames, size)
-    fps = save_fps if fps is None else fps
+
     save_root = os.path.join(output, video_name)
     if not os.path.exists(save_root):
         os.makedirs(save_root, exist_ok=True)
@@ -354,8 +360,8 @@ def do_video_impating(video, mask, mask_dilation=10):
         torch.cuda.empty_cache()
 
     # save videos frame
-    comp_frames = [cv2.resize(f, out_size) for f in comp_frames]
-    imageio.mimwrite(os.path.join(save_root, video_name + '.mp4'), comp_frames, fps=fps, quality=7)
+    comp_frames = [cv2.resize(f, in_size) for f in comp_frames]
+    imageio.mimwrite(os.path.join(save_root, video_name + '.mp4'), comp_frames, fps=video_fps, quality=7)
 
     print(f'\nAll results are saved in {save_root}')
 

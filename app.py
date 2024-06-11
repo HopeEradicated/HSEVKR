@@ -18,8 +18,7 @@ def clean():
 
 def get_click_prompt(click_stack, point):
     click_stack[0].append(point["coord"])
-    click_stack[1].append(point["mode"]
-                          )
+    click_stack[1].append(point["mode"])
 
     prompt = {
         "points_coord": click_stack[0],
@@ -200,7 +199,7 @@ def seg_app():
         gr.Markdown(
             '''
             <div style="text-align:center;">
-                <span style="font-size:3em; font-weight:bold;">Video Inpainting</span>
+                <span style="font-size:3em; font-weight:bold;">Удаление объекта</span>
             </div>
             '''
         )
@@ -211,50 +210,50 @@ def seg_app():
 
         with gr.Row():
             with gr.Column(scale=0.5):
-                input_video = gr.Video(label='Input video').style(height=550)
+                input_video = gr.Video(label='Ваше видео').style(height=500)
 
-                input_first_frame = gr.Image(label='Selected mask', interactive=True).style(height=550)
+                input_first_frame = gr.Image(label='Выберите объект', interactive=True).style(height=500)
 
-                tab_click = gr.Tab(label="Click")
+                tab_click = gr.Tab(label="Нажатие")
                 with tab_click:
                     with gr.Row():
                         point_mode = gr.Radio(
                             choices=["Positive", "Negative"],
                             value="Positive",
-                            label="Point Prompt",
+                            label="Выделение объекта",
                             interactive=True)
 
                         click_undo_but = gr.Button(
-                            value="Undo",
+                            value="Отмена",
                             interactive=True
                         )
 
-                tab_stroke = gr.Tab(label="Stroke")
+                tab_stroke = gr.Tab(label="Обводка")
                 with tab_stroke:
-                    drawing_board = gr.Image(label='Drawing Board', tool="sketch", brush_radius=1, interactive=True)
+                    drawing_board = gr.Image(label='Обведите объект', tool="sketch", brush_radius=10, interactive=True)
                     with gr.Row():
-                        seg_acc_stroke = gr.Button(value="Segment", interactive=True)
+                        seg_acc_stroke = gr.Button(value="Сегментация", interactive=True)
 
-                tab_text = gr.Tab(label="Text")
+                tab_text = gr.Tab(label="Текст")
                 with tab_text:
-                    grounding_caption = gr.Textbox(label="Detection Prompt")
-                    detect_button = gr.Button(value="Detect")
-                    with gr.Accordion("Advanced options", open=False):
+                    grounding_caption = gr.Textbox(label="Опишите объект")
+                    detect_button = gr.Button(value="Найти")
+                    with gr.Accordion("Продвинутые настройки", open=False):
                         with gr.Row():
                             with gr.Column(scale=0.5):
                                 box_threshold = gr.Slider(
-                                    label="Box Threshold", minimum=0.0, maximum=1.0, value=0.25, step=0.001
+                                    label="Порог рамки детекции", minimum=0.0, maximum=1.0, value=0.25, step=0.001
                                 )
                             with gr.Column(scale=0.5):
                                 text_threshold = gr.Slider(
-                                    label="Text Threshold", minimum=0.0, maximum=1.0, value=0.25, step=0.001
+                                    label="Уровень свободы интерпретации текста", minimum=0.0, maximum=1.0, value=0.25, step=0.001
                                 )
 
                 with gr.Row():
                     with gr.Column(scale=0.5):
-                        with gr.Tab(label="Model args"):
+                        with gr.Tab(label="Параметры модели"):
                             aot_model = gr.Dropdown(
-                                label="Selected model",
+                                label="Выбранная модель",
                                 choices=[
                                     "deaotb",
                                     "r50_deaotl",
@@ -264,7 +263,7 @@ def seg_app():
                                 interactive=True,
                             )
                             mask_dilation = gr.Slider(
-                                label="Mask dilation",
+                                label="Точность маски",
                                 minimum=5,
                                 step=1,
                                 maximum=10,
@@ -273,12 +272,12 @@ def seg_app():
                             )
                     with gr.Column():
                         track_for_video = gr.Button(
-                            value="Start Tracking",
+                            value="Начать сегментацию",
                             interactive=True,
                         ).style(size="lg")
 
             with gr.Column(scale=0.5):
-                output_video = gr.Video(label='Output video').style(height=550)
+                output_video = gr.Video(label='Готовое видео').style(height=500)
 
         ##########################################################
         ######################  back-end #########################
